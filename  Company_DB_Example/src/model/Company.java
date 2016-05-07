@@ -77,22 +77,20 @@ public class Company {
 
 	/**
 	 * @param sub_company
-	 *            the author to set
+	 *         
 	 */
 	public void setSub_company(String sub_company) {
 		this.sub_company = sub_company;
 	}
 
-	/**
-	 * @return the pages
-	 */
+	 
 	public int getEarnings() {
 		return earnings;
 	}
 
 	/**
 	 * @param earnings
-	 *            the pages to set
+	 *           
 	 */
 	public void setEarnings(int earnings) {
 		this.earnings = earnings;
@@ -100,7 +98,7 @@ public class Company {
 	
 	@Override
 	public String toString() {
-		return "Company [companyID=" + companyID + ", title=" + main_company + ", author=" + sub_company + ", pages=" + earnings + "]";
+		return "Company [companyID=" + companyID + ", Company_DB_Example=" + main_company + ", sub_company=" + sub_company + ", earnings=" + earnings + "]";
 	}
 
 }

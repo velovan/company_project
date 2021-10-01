@@ -37,7 +37,6 @@ public class Company {
 		this.earnings = earnings;
 	}
 	
-	
 	/**
 	 * @return the companyID
 	 */

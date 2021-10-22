@@ -14,8 +14,10 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(description = "Controller to generate the add a company form", urlPatterns = { "/add" })
 public class AddFormServlet extends HttpServlet {
+	
 	private static final long serialVersionUID = 1L;
        
+	
     /**
      * @see HttpServlet#HttpServlet()
      */

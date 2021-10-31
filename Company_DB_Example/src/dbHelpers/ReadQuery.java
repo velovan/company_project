@@ -85,8 +85,8 @@ public class ReadQuery {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		table += "</table>";	
 		
-		table += "</table>";		
 		return table;
 	}
 	

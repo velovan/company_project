@@ -8,8 +8,6 @@
 </head>
 <body>
 	<h1>Add Company</h1>
-
-	  
 		<form name="addForm" action="addCompany" method="get">
 
      <table border="1" width="20%">

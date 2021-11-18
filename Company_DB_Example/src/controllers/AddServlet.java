@@ -17,6 +17,7 @@ import model.Company;;
  */                                                                                                                                           
 @WebServlet(description = "Controller for adding a new company to the database", urlPatterns = { "/addCompany" })
 public class AddServlet extends HttpServlet {
+	
 	private static final long serialVersionUID = 1L;
        
     /**

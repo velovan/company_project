@@ -8,9 +8,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/**
+/*
  * @author ViVol
- *
  */
 public class DeleteQuery {
 

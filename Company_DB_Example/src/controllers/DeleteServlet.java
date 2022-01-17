@@ -35,6 +35,7 @@ public class DeleteServlet extends HttpServlet {
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
+	
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
@@ -56,5 +57,6 @@ public class DeleteServlet extends HttpServlet {
 		
 //		doGet(request, response);
 	}
+	
 
 }

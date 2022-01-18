@@ -26,10 +26,10 @@ public class ReadServlet extends HttpServlet {
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ReadServlet() {
+        public ReadServlet() {
         super();
         // TODO Auto-generated constructor stub
-    }
+        }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -39,6 +39,7 @@ public class ReadServlet extends HttpServlet {
 		
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
+	
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

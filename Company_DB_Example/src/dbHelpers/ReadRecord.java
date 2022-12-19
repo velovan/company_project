@@ -15,7 +15,7 @@ import model.Company;
  * @author ViVol
  *
  */
-public class ReadRecord {
+public class ReadRecord{
 
 	private Connection connection;
 	private ResultSet results;
@@ -58,7 +58,7 @@ public class ReadRecord {
 		}
 	}
 	
-	public Company getCompany(){
+	public Company getCompany() {
 		return this.company;
 	}
 	

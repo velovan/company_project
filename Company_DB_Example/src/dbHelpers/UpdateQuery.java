@@ -14,11 +14,11 @@ import model.Company;;
  * @author ViVol
  *
  */
-public class UpdateQuery {
+public class UpdateQuery{
 
 	private Connection connection;
 
-	public UpdateQuery(String dbName, String uname, String pwd) {
+	public UpdateQuery(String dbName, String uname, String pwd){
 
 		String url = "jdbc:mysql://localhost:3306/" + dbName;
 

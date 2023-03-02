@@ -14,7 +14,7 @@ import model.Company; ;
  * @author ViVol
  *
  */
-public class AddQuery {
+public class AddQuery{
 
 	public Connection connection;
 

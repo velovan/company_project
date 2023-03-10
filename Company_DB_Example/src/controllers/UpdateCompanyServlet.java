@@ -16,13 +16,13 @@ import model.Company;
  * Servlet implementation class UpdateBookServlet
  */
 @WebServlet(description = "Controller whicth starts the actual company update to the database", urlPatterns = { "/updateCompany" })
-public class UpdateCompanyServlet extends HttpServlet {
+public class UpdateCompanyServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public UpdateCompanyServlet() {
+    public UpdateCompanyServlet(){
         super();
         // TODO Auto-generated constructor stub
     }
@@ -39,7 +39,7 @@ public class UpdateCompanyServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 	//Get the form data and set up a Company object
 		int companyID = Integer.parseInt(request.getParameter("companyID"));
 		String main_company = request.getParameter("main_company");

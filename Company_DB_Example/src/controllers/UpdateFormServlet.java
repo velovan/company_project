@@ -22,7 +22,7 @@ public class UpdateFormServlet extends HttpServlet {
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public UpdateFormServlet() {
+    public UpdateFormServlet(){
         super();
         // TODO Auto-generated constructor stub
     }

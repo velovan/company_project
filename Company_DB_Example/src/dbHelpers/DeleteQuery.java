@@ -11,7 +11,7 @@ import java.sql.SQLException;
 /*
  * @author ViVol
  */
-public class DeleteQuery {
+public class DeleteQuery{
 
 	private Connection connection;
 	
